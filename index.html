@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pioneer-bank</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--    <link href="images/ICON/book.png" rel="shortcut icon">-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/2af1052cd6.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<section class="main-section">
+    <div class="container  ">
+        <div class="row align-items-center">
+            <div class="col-md-12 col-sm-12 mt-5">
+                <div class="text-center " id="full-area">
+                    <h1 class="mb-5 mt-5">Welcome to pioneer-bank</h1>
+                    <div class="text-left shadow p-4">
+
+                            <h3>login</h3>
+                            <div class="form-group">
+
+                                <input type="email" class="form-control"  placeholder="Email" >
+
+                            </div>
+                            <div class="form-group">
+
+                                <input type="password" class="form-control"  placeholder="password">
+                            </div>
+                            <button type="" class="btn btn-primary" id="login-button">Submit</button>
+
+                    </div>
+                </div>
+                <div id="trancition-area">
+                    <div class="row text-white mb-5">
+                        <div class="col-md-4 col-sm-6 ">
+                            <div class="pl-4 py-4 deposit">
+                                <h5>Deposit</h5>
+                                <h2>$ <span id="final-deposit-ammount">00</span></h2>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-sm-6 ">
+                           <div class="pl-4 py-4 widthdrow">
+                               <h5>Widthdrow</h5>
+                               <h2>$ <span id="final-widthdrow-ammount">00</span></h2>
+                           </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 ">
+                           <div class="pl-4 py-4 balance">
+                               <h5>Balance</h5>
+                               <h2>$<span id="balance-ammount">100</span></h2>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 pt-5">
+                        <div class="col-md-6 ">
+                            <div class="shadow p-5">
+                                <h4>Deposit</h4>
+                                <input type="text" id="deposit-ammount" class="form-control mb-3" placeholder="$ of ammount you want to deposit">
+                                <button class="btn btn-success" id="deposit">Deposit</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="shadow p-5">
+                                <h4>Wiidthdrow</h4>
+                                <input type="text" class="form-control mb-3"id="wiidthdrow-ammount" placeholder="$ of ammount you want to widthdrow">
+                                <button class="btn btn-success" id="wiidthdrow-button">Wiidthdrow</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="custom.js"></script>
+
+</body>
+</html>

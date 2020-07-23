@@ -1,0 +1,19 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main-section{
+    /*margin-top: 50%;*/
+    /*margin-bottom: 50%;*/
+}
+#trancition-area{
+    display: none;
+}
+.deposit{
+    background-color: slateblue;
+}
+.widthdrow{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
